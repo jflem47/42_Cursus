@@ -1,7 +1,6 @@
 SRCS	=	ft_printf.c \
 			utils.c \
 
-
 OBJS		= $(addprefix $(BIN_DIR)/, $(SRCS:.c=.o))
 
 NAME		= libftprintf.a

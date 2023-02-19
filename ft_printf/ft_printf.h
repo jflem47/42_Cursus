@@ -18,7 +18,7 @@
 # include <stdio.h>
 # include <unistd.h>
 
-int		ft_printf(const char *, ...);
+int		ft_printf(const char *str, ...);
 char	parse_format(const char *str);
 void	print_factory(va_list toprint, char flag);
 

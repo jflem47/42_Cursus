@@ -38,6 +38,8 @@ int	ft_printf(const char *str, ...)
 
 int	main(void)
 {
-	ft_printf("%s\n", "salut");
+	ft_printf("%x\n", "salut");
+	printf("%%\n");
+	ft_printf("%%\n");
 	return (0);
 }
